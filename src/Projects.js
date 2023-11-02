@@ -1,34 +1,5 @@
 import React from "react";
 
-const projects = {
-  title: "Breathe",
-  Body: (
-    <>
-      <p>
-        Introducing the Breathe App: An online carbon intensity calculator
-        designed and developed during a solo sprint at Northcoders. With a focus
-        on sustainability and environmental awareness, this innovative app
-        harnesses the power of the carbon intensity API to provide users with
-        valuable insights into their local carbon footprint. By simply entering
-        their postcode, users can instantly discover the carbon intensity in
-        their area, gaining a deeper understanding of the environmental impact
-        of their energy usage. This project showcases my passion for leveraging
-        technology to create meaningful solutions for a greener future.
-        Together, let's take steps towards a more sustainable tomorrow.
-      </p>
-      <p> </p>
-      <p>Technologies used: JavaScript, React, HTML, CSS</p>
-    </>
-  ),
-
-  links: [
-    {
-      text: "Source Code",
-      url: "https://github.com/hja7333/fe-react-data-visualisation",
-    },
-  ],
-};
-
 const grub = {
   title: "Grub",
   body: (
@@ -45,7 +16,17 @@ const grub = {
         Our tech stack choices were made to try to optimise the users experience
         and also to explore wider technologies outside of the PERN stack we have
         become used to.
-      </p>
+      </p>{" "}
+      <div className="images">
+        <img
+          src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.43.55.png?raw=true"
+          alt="Description of your image"
+        />
+        <img
+          src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.44.35.png?raw=true"
+          alt="Description of your image"
+        />{" "}
+      </div>
     </>
   ),
   links: [
@@ -63,7 +44,34 @@ const grub = {
     },
   ],
 };
+const projects = {
+  title: "Breathe",
+  Body: (
+    <>
+      <p>
+        Introducing the Breathe App: An online carbon intensity calculator
+        designed and developed during a solo sprint at Northcoders. With a focus
+        on sustainability and environmental awareness, this innovative app
+        harnesses the power of the carbon intensity API to provide users with
+        valuable insights into their local carbon footprint. By simply entering
+        their postcode, users can instantly discover the carbon intensity in
+        their area, gaining a deeper understanding of the environmental impact
+        of their energy usage. This project showcases my passion for leveraging
+        technology to create meaningful solutions for a greener future.
+        Together, let's take steps towards a more sustainable tomorrow.
+      </p>
 
+      <p>Technologies used: JavaScript, React, HTML, CSS</p>
+    </>
+  ),
+
+  links: [
+    {
+      text: "Source Code",
+      url: "https://github.com/hja7333/fe-react-data-visualisation",
+    },
+  ],
+};
 function Projects() {
   return (
     <div className="p-8 bg-gray-100">
