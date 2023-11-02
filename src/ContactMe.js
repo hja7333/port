@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 
-const emailJsPublicKey = process.env.EMAILJS_PUBLIC_KEY;
+// const emailJsPublicKey = process.env.EMAILJS_PUBLIC_KEY;
 function ContactMe() {
   const sendEmail = (e) => {
     e.preventDefault();
