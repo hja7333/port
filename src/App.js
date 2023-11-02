@@ -65,7 +65,7 @@ function App() {
                       <div>
                         <img
                           src="https://th.bing.com/th/id/OIG.nNWBeZORNw3eqfdgX5ER?pid=ImgGn"
-                          alt="Your Image"
+                          alt=""
                           className="w-full h-auto rounded"
                         />
                       </div>
@@ -97,7 +97,7 @@ function App() {
                       <div>
                         <img
                           src="https://th.bing.com/th/id/OIG.pu3WYzRMNdI42os67jj1?pid=ImgGn"
-                          alt="Your Image"
+                          alt=""
                           className="w-full h-auto rounded"
                         />
                       </div>
@@ -123,7 +123,7 @@ function App() {
                       <div>
                         <img
                           src="https://th.bing.com/th/id/OIG.oiczP_pH3S01InU_C8M5?pid=ImgGn&w=1024&h=1024&rs=1"
-                          alt="Your Image"
+                          alt=""
                           className="w-full h-auto rounded"
                         />
                       </div>
