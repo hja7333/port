@@ -10,7 +10,7 @@ function App() {
       <div className="bg-gray-100 min-h-screen">
         <header className="bg-white shadow-md">
           <nav className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
-            <h1 className="text-2xl font-semibold">Alan Hunt</h1>
+            <h1 className="text-6xl text-gray-600 font-semibold">Alan Hunt</h1>
 
             <ul className="flex space-x-6">
               <li>
@@ -52,11 +52,25 @@ function App() {
                     </h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div className="text-gray-700">
-                        <p className="mb-4">
-                          I'm an enthusiastic Full Stack Developer with
-                          proficiency in Javascript, HTML, CSS, and Node.
+                        <p className="text-2xl mb-4">
+                          As a highly motivated and adaptable professional, I
+                          bring a dynamic blend of experiences from the fields
+                          of education, software engineering, and case work. My
+                          journey is characterized by a fervent dedication to
+                          embracing new challenges and fostering a lifelong
+                          learning mindset, especially in the ever-evolving tech
+                          industry.
                         </p>
-                        <p className="mb-4">
+                        <p className="text-2xl mb-4">
+                          My reputation is built on a foundation of strong
+                          problem-solving skills and an unwavering commitment to
+                          delivering innovative solutions. I'm on the lookout
+                          for an exciting and demanding role where I can join
+                          forces with a team of seasoned software engineers and,
+                          together, we'll create a profound impact on our
+                          organization.
+                        </p>
+                        <p className="text-2xl mb-4">
                           During my intensive 13-week experience at Northcoders,
                           I immersed myself in a wide range of projects, from
                           collaborative group work to solo and paired endeavors.
@@ -80,13 +94,13 @@ function App() {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div className="text-gray-700">
-                        <p className="mb-4">
+                        <p className="text-2xl mb-4">
                           My journey has been a unique one, with a background
                           that spans teaching and senior administration,
                           culminating in my graduation from the esteemed
                           Northcoders bootcamp.
                         </p>
-                        <p className="mb-4">
+                        <p className="text-2xl mb-4">
                           As a developer, I bring my diverse background,
                           creative passion, and zest for life to every project I
                           undertake. I'm excited to blend these qualities into
@@ -112,7 +126,7 @@ function App() {
                     </h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div className="text-gray-700">
-                        <p className="mb-4">
+                        <p className="text-2xl mb-4">
                           As a developer, I bring my diverse background,
                           creative passion, and zest for life to every project I
                           undertake. I'm excited to blend these qualities into

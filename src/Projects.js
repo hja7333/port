@@ -56,7 +56,7 @@ function Projects() {
     <div className="p-8 bg-gray-100">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">{projects.title}</h2>
-        <p className="text-gray-600">{projects.Body}</p>
+        <p className="text-2xl text-gray-600">{projects.Body}</p>
         {/* Render other projects ... */}
         <div className="mt-8">
           <h2 className="text-3xl font-semibold mb-4">{grub.title}</h2>
