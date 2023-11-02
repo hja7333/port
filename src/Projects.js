@@ -11,7 +11,7 @@ const projects = {
       text: "Source Code",
       url: "https://github.com/hja7333/fe-react-data-visualisation",
     },
-    //could add another text and url for the actual app if it is online
+    //could add another text and url for the actual app when it is online
   ],
 };
 
