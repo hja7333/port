@@ -29,8 +29,16 @@ function ContactMe() {
   };
 
   return (
-    <div className="p-8 bg-primary text-black">
+    <div className="p-8 bg-primary  text-gray-600 ">
       <h2 className="text-2xl font-semibold mb-4">Hello there!</h2>
+      <p className="text-2xl mb-4">
+        🖐️ I'm always excited to connect with fellow tech enthusiasts and
+        potential collaborators. Whether you're interested in discussing
+        exciting projects, exploring permanent positions, or freelance
+        opportunities, I'm all ears. Let's chat and see where our paths may
+        lead. Feel free to drop me a line, and let's start a conversation.
+        Looking forward to connecting with you!"
+      </p>
       <form onSubmit={sendEmail}>
         <div className="mb-4">
           <label htmlFor="name" className="block text-lg font-semibold">
