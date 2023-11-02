@@ -44,16 +44,6 @@ function App() {
             path="/about"
             element={
               <div>
-                {/* <section className="p-4">
-                  <h2 className="text-xl font-semibold mb-2">Background</h2>
-                  <p>
-                    I'm an enthusiastic Full Stack Developer with proficiency in
-                    Javascript, HTML, CSS, and Node. My journey has been a
-                    unique one, with a background that spans teaching and senior
-                    administration, culminating in my graduation from the
-                    esteemed Northcoders bootcamp.
-                  </p>
-                </section> */}
                 <section className="bg-white py-16">
                   <div className="container mx-auto px-4">
                     <h1 className="text-4xl font-semibold text-center mb-8">
@@ -76,27 +66,15 @@ function App() {
                         </p>
                       </div>
                       <div>
-                        <img
+                        {/* <img
                           src="your-image.jpg"
                           alt="Your Image"
                           className="w-full h-auto rounded"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
                 </section>
-
-                {/* <section className="p-4">
-                  <h2 className="text-xl font-semibold mb-2">Coding Journey</h2>
-                  <p>
-                    During my intensive 13-week experience at Northcoders, I
-                    immersed myself in a wide range of projects, from
-                    collaborative group work to solo and paired endeavors. I
-                    adeptly navigated various technology stacks, utilizing Agile
-                    methodologies to foster efficiency and seamless
-                    collaboration within the team.
-                  </p>
-                </section> */}
 
                 <section className="bg-gray-100 py-16">
                   <div className="container mx-auto px-4">
@@ -120,28 +98,15 @@ function App() {
                         </p>
                       </div>
                       <div>
-                        <img
+                        {/* <img
                           src="your-image-2.jpg"
                           alt="Your Image 2"
                           className="w-full h-auto rounded"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
                 </section>
-
-                {/* <section className="p-4">
-                  <h2 className="text-xl font-semibold mb-2">
-                    Passion for Development
-                  </h2>
-                  <p>
-                    As a developer, I bring my diverse background, creative
-                    passion, and zest for life to every project I undertake. I'm
-                    excited to blend these qualities into crafting apps that
-                    prioritize user satisfaction and offer visually appealing
-                    designs.
-                  </p>
-                </section> */}
 
                 <section className="bg-white py-16">
                   <div className="container mx-auto px-4">
@@ -159,11 +124,11 @@ function App() {
                         </p>
                       </div>
                       <div>
-                        <img
+                        {/* <img
                           src="your-image.jpg"
                           alt="Your Image"
                           className="w-full h-auto rounded"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
