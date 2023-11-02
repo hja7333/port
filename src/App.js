@@ -11,6 +11,7 @@ function App() {
         <header className="bg-white shadow-md">
           <nav className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
             <h1 className="text-2xl font-semibold">Alan Hunt</h1>
+
             <ul className="flex space-x-6">
               <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-800">
@@ -60,17 +61,13 @@ function App() {
                           I immersed myself in a wide range of projects, from
                           collaborative group work to solo and paired endeavors.
                         </p>
-                        <p className="mb-4">
-                          My love for nature takes me hiking amidst the
-                          breathtaking landscapes of the Peak District.
-                        </p>
                       </div>
                       <div>
-                        {/* <img
-                          src="your-image.jpg"
+                        <img
+                          src="https://th.bing.com/th/id/OIG.nNWBeZORNw3eqfdgX5ER?pid=ImgGn"
                           alt="Your Image"
                           className="w-full h-auto rounded"
-                        /> */}
+                        />
                       </div>
                     </div>
                   </div>
@@ -98,11 +95,11 @@ function App() {
                         </p>
                       </div>
                       <div>
-                        {/* <img
-                          src="your-image-2.jpg"
-                          alt="Your Image 2"
+                        <img
+                          src="https://th.bing.com/th/id/OIG.pu3WYzRMNdI42os67jj1?pid=ImgGn"
+                          alt="Your Image"
                           className="w-full h-auto rounded"
-                        /> */}
+                        />
                       </div>
                     </div>
                   </div>
@@ -124,11 +121,11 @@ function App() {
                         </p>
                       </div>
                       <div>
-                        {/* <img
-                          src="your-image.jpg"
+                        <img
+                          src="https://th.bing.com/th/id/OIG.oiczP_pH3S01InU_C8M5?pid=ImgGn&w=1024&h=1024&rs=1"
                           alt="Your Image"
                           className="w-full h-auto rounded"
-                        /> */}
+                        />
                       </div>
                     </div>
                   </div>
