@@ -20,11 +20,11 @@ const grub = {
       <div className="images">
         <img
           src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.43.55.png?raw=true"
-          alt="Description of your image"
+          alt="Create account screen of the GRUB APP"
         />
         <img
           src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.44.35.png?raw=true"
-          alt="Description of your image"
+          alt="Map View screenshot of the Grub App"
         />{" "}
       </div>
     </>
