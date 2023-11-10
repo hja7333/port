@@ -78,7 +78,6 @@ function Projects() {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold mb-4">{projects.title}</h2>
         <p className="text-1.95xl text-gray-600">{projects.Body}</p>
-        {/* Render other projects ... */}
         <div className="mt-8">
           <h2 className="text-3xl font-semibold mb-4">{grub.title}</h2>
           <div className="text-1.95xl text-gray-600">{grub.body}</div>

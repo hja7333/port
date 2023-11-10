@@ -13,16 +13,16 @@ code {
 }
 
 .images {
-  /* display: flex; */
-  /* flex-wrap: nowrap; */
-  /* justify-content: space-between; Adjust this for spacing */
-  /* display: inline-block; */
-  /* margin: 0 auto; This centers the images horizontally */
-  /* max-width: 30%; */
   display: inline-flex;
-  max-width: 50%; /* Adjust the value as needed to control the size */
+  max-width: 50%;
   vertical-align: top;
   margin-right: 20px;
-  box-shadow: 100px 100px 100px rgba(232, 36, 36, 0.2); /* Add a shadow effect */
+  box-shadow: 100px 100px 100px rgba(232, 36, 36, 0.2);
   margin-right: 30px;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
 }
