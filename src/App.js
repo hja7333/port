@@ -6,13 +6,9 @@ import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 
 import Footer from "./Footer";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function App() {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-white shadow-md">
@@ -20,33 +16,18 @@ function App() {
           <h1 className="text-6xl text-gray-600 font-semibold">Alan Hunt</h1>
           <ul className="flex space-x-6">
             <li>
-              <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                onClick={scrollToTop}
-              >
+              <Link to="about" smooth={true} duration={500}>
                 About Me
               </Link>
-            </li>
+            </li>{" "}
             <li>
-              <Link
-                to="projects"
-                smooth={true}
-                duration={500}
-                onClick={scrollToTop}
-              >
-                Projects
+              <Link to="contact" smooth={true} duration={500}>
+                Contact Me
               </Link>
             </li>
             <li>
-              <Link
-                to="contact"
-                smooth={true}
-                duration={500}
-                onClick={scrollToTop}
-              >
-                Contact Me
+              <Link to="projects" smooth={true} duration={500}>
+                Projects
               </Link>
             </li>
           </ul>
@@ -57,7 +38,7 @@ function App() {
 
       <section id="about" className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-semibold text-center mb-8">AboutMe</h2>
+          <h2 className="text-4xl font-semibold text-center mb-8">About Me</h2>
           <AboutMe />
         </div>
       </section>
