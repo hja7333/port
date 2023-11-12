@@ -26,3 +26,11 @@ header {
   background-color: white;
   z-index: 100;
 }
+.animated-link {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.animated-link:hover {
+  color: #0056b3;
+}
