@@ -38,6 +38,7 @@ function App() {
 
       <section id="about" className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
+          <br />
           <h2 className="text-4xl font-semibold text-center mb-8">About Me</h2>
           <AboutMe />
         </div>
@@ -46,6 +47,7 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
+          <br />
           <h2 className="text-4xl font-semibold text-center mb-8">Projects</h2>
           <Projects />
         </div>
@@ -54,6 +56,8 @@ function App() {
       {/* Contact Me Section */}
       <section id="contact" className="bg-white py-16">
         <div className="container mx-auto px-4">
+          {" "}
+          <br />
           <h2 className="text-4xl font-semibold text-center mb-8">
             Contact Me
           </h2>
