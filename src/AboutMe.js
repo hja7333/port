@@ -35,19 +35,15 @@ function AboutMe() {
           </div>
         </div>
       </section>
-
+      <h2 className="text-4xl text-center font-semibold mb-8">My Journey</h2>
       <section className="bg-gray-100 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-semibold text-center mb-8">
-            My Journey
-          </h2>
-          <div className="text-gray-700">
+        <div className="container mx-auto px-8 flex items-center">
+          <div className="text-gray-700 mr-8">
             <p className="text-2xl mb-4">
               During my intensive 13-week experience at Northcoders, I immersed
               myself in a wide range of projects, from collaborative group work
               to solo and paired endeavors.
             </p>
-            <p className="text-2xl mb-4"></p>
             <ul className="list-disc text-2xl mb-4">
               <li>
                 Frontend: Git, Trello, HTML5, CSS3, Axios, React, React Native,
@@ -85,9 +81,9 @@ function AboutMe() {
           </div>
           <div>
             <img
+              className="h-auto max-w-lg transition-all duration-300 rounded-lg blur-sm hover:blur-none"
               src="https://th.bing.com/th/id/OIG.pu3WYzRMNdI42os67jj1?pid=ImgGn"
               alt=""
-              className="w-full h-auto rounded"
             />
           </div>
         </div>
