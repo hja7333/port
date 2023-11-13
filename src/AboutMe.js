@@ -8,21 +8,21 @@ function AboutMe() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-gray-700">
               <p className="text-2xl mb-4">
-                Hey awesome folks! 🌟 I'm a highly motivated professional with a
-                wild ride through education, software engineering, and case
-                work. Picture this: I've danced my way through teaching, rocked
-                it in field sales, and strutted my stuff in international credit
-                control, all leading up to my epic graduation from the
-                Northcoders Software Engineering Bootcamp.
+                Hey folks! 🌟 I'm a highly motivated professional with
+                experience in education, software engineering, nationwide field
+                sales, and international credit control. Picture this: I've
+                danced my way through teaching, rocked it in field sales, and
+                strutted my stuff in international credit control, all leading
+                up to my epic graduation from the Northcoders Software
+                Engineering Bootcamp.
               </p>
               <p className="text-2xl mb-4">
                 I'm all about tackling new challenges and keeping that learning
                 energy alive, especially in the ever-changing tech scene. My
-                rep? It's built on killer problem-solving skills and a
+                reputation? It's built on killer problem-solving skills and a
                 commitment to dropping innovative solutions. Now, I'm on the
-                hunt for a fantastic and challenging role where I can team up
-                with some tech wizards to make a serious impact on our turf.
-                Let's cook up something amazing together! 🚀✨
+                hunt for a challenging role where I can team up with some tech
+                wizards to make a serious impact on our turf! 🚀✨
               </p>
             </div>
             <div>
