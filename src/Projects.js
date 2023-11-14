@@ -3,12 +3,13 @@ import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
-function Projects() {
+
+function Projects({ darkMode }) {
   return (
-    <section className="bg-gray py-16">
+    <section className={`py-16 ${darkMode ? "dark:bg-slate-800" : "bg-white"}`}>
       <h2 className="text-4xl text-center font-semibold mb-4">Breathe</h2>
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 text-justify">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="text-gray-700">
             <div>

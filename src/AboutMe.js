@@ -1,12 +1,18 @@
 import React from "react";
 
-function AboutMe() {
+function AboutMe({ darkMode }) {
   return (
     <div>
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
+      <section
+        className={` w-full p-2 border rounded text-justify ${
+          darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
+        }`}
+      >
+        <div className="container mx-auto px-4 text-justify">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="text-gray-700">
+            <div
+              className={`py-16 ${darkMode ? "dark:bg-slate-800" : "bg-white"}`}
+            >
               <p className="text-2xl mb-4">
                 Hey folks! 🌟 I'm a highly motivated professional with
                 experience in education, software engineering, nationwide field
@@ -36,7 +42,9 @@ function AboutMe() {
         </div>
       </section>
       <h2 className="text-4xl text-center font-semibold mb-8">My Journey</h2>
-      <section className="bg-gray-100 py-16">
+      <section
+        className={`py-16 ${darkMode ? "dark:bg-slate-800" : "bg-white"}`}
+      >
         <div className="container mx-auto px-8 flex items-center">
           <div className="text-gray-700 mr-8">
             <p className="text-2xl mb-4">
