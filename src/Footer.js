@@ -3,7 +3,7 @@ import React from "react";
 function Footer({ darkMode }) {
   return (
     <footer
-      className={`bg-white shadow-md ${
+      className={`bg-white shadow-md text-center ${
         darkMode ? "dark:bg-slate-800" : "bg-white"
       }`}
     >
