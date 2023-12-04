@@ -90,7 +90,7 @@ function AboutMe({ darkMode }) {
           <div>
             <img
               className="h-auto max-w-lg transition-all duration-300 rounded-lg blur-sm hover:blur-none"
-              src="https://th.bing.com/th/id/OIG.pu3WYzRMNdI42os67jj1?pid=ImgGn"
+              src="https://th.bing.com/th/id/OIG.SwodUL7BLVj8zn29AphQ?pid=ImgGn"
               alt=""
             />
           </div>
