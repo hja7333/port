@@ -47,7 +47,7 @@ function App() {
                     My Journey{" "}
                   </Link>
                 </li>
-                <Link to="projects" smooth={true} duration={500}>
+                <Link to="Breathe" smooth={true} duration={500}>
                   Projects
                 </Link>
               </li>
