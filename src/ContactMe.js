@@ -114,7 +114,9 @@ function ContactMe({ darkMode }) {
           </div>
           <button
             type="submit"
-            className="bg-white text-primary font-semibold py-2 px-4 rounded hover:bg-secondary hover:text-white"
+            className={`p-2 border bg-white text-primary font-semibold py-2 px-4 rounded hover:bg-secondary shadow-md ${
+              darkMode ? "text-white dark:bg-slate-800" : "bg-white"
+            }`}
           >
             Send Email
           </button>
