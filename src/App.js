@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import Grub from "./Grub";
 import Breathe from "./Breathe";
 import ContactMe from "./ContactMe";
+import HjaNews from "./HjaNews";
 import { Link } from "react-scroll";
 import MyJourney from "./MyJourney";
 
@@ -102,7 +103,7 @@ function App() {
             <MyJourney darkMode={darkMode} />
           </div>
         </section>
-
+        {/* Breathe Section */}
         <section id="Breathe" className={sectionClasses()}>
           <div className="container mx-auto px-4">
             <br />
@@ -118,7 +119,7 @@ function App() {
           </div>
         </section>
 
-        {/* Projects Section */}
+        {/* Grub Section */}
         <section id="Grub" className={sectionClasses()}>
           <div className="container mx-auto px-4">
             <br />
@@ -134,6 +135,21 @@ function App() {
           </div>
         </section>
 
+        {/* HjaNews Section */}
+        <section id="HjsNews" className={sectionClasses()}>
+          <div className="container mx-auto px-4">
+            <br />
+            <h2
+              className={`text-4xl text-center font-semibold mb-4 ${
+                darkMode ? "text-white" : "text-black"
+              }`}
+            >
+              HJA News
+            </h2>
+
+            <HjaNews darkMode={darkMode} />
+          </div>
+        </section>
         {/* Contact Me Section */}
         <section id="contact" className={sectionClasses()}>
           <div className="container mx-auto px-4">

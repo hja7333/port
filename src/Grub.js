@@ -11,19 +11,9 @@ function Grub({ darkMode }) {
         }`}
       >
         <div className="container mx-auto px-4 text-justify">
-          {/* Grub Project */}
-
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-gray-700">
-                {/* <h2 className="text-4xl font-semibold mb-4">Grub</h2> */}
-                {/* <h2
-                  className={`text-4xl text-center font-semibold mb-4 ${
-                    darkMode ? "text-white" : "text-black"
-                  }`}
-                >
-                  Grub
-                </h2> */}
                 <div
                   className={`text-gray-700 ${
                     darkMode ? "text-white" : "text-black"

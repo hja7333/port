@@ -14,22 +14,20 @@ function Breathe({ darkMode }) {
           <div
             className={`py-16 ${darkMode ? "dark:bg-slate-800" : "bg-white"}`}
           >
-            {/* <h2
-              className={`text-4xl text-center font-semibold mb-4 ${
-                darkMode ? "text-white" : "text-black"
-              }`}
-            >
-              Breathe
-            </h2> */}
             <p className="text-2xl mb-4">
               Introducing the Breathe App: An online carbon intensity calculator
               designed and developed during a solo sprint at Northcoders. With a
               focus on sustainability and environmental awareness, this
               innovative app harnesses the power of the carbon intensity API to
               provide users with valuable insights into their local carbon
-              footprint. By simply entering their postcode, users can instantly
-              discover the carbon intensity in their area, gaining a deeper
-              understanding of the environmental impact of their energy usage.
+              footprint.
+            </p>{" "}
+            <p className="text-2xl mb-4">
+              By simply entering their postcode, users can instantly discover
+              the carbon intensity in their area, gaining a deeper understanding
+              of the environmental impact of their energy usage.
+            </p>
+            <p className="text-2xl mb-4">
               This project showcases my passion for leveraging technology to
               create meaningful solutions for a greener future. Together, let's
               take steps towards a more sustainable tomorrow.
@@ -52,10 +50,20 @@ function Breathe({ darkMode }) {
         <ul className="mt-4 space-y-2">
           <li>
             <a
+              href="https://tobreathe.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-600 dark:shadow-gray-800 hover:underline animated-link"
+            >
+              <FontAwesomeIcon icon={faEarthAfrica} bounce /> ToBreathe Web App
+            </a>
+          </li>
+          <li>
+            <a
               href="https://github.com/hja7333/fe-react-data-visualisation"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 dark:shadow-gray-800 hover:underline animated-link"
+              className="text-green-600 dark:shadow-gray-800 hover:underline animated-link"
             >
               <FontAwesomeIcon icon={faEarthAfrica} bounce /> Source Code
             </a>
