@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./index.css";
 import "./App.css";
 import AboutMe from "./AboutMe";
-import Projects from "./Projects";
+import Grub from "./Grub";
+import Breathe from "./Breathe";
 import ContactMe from "./ContactMe";
 import { Link } from "react-scroll";
 import MyJourney from "./MyJourney";
@@ -102,8 +103,7 @@ function App() {
           </div>
         </section>
 
-        {/* Projects Section */}
-        <section id="projects" className={sectionClasses()}>
+        <section id="Breathe" className={sectionClasses()}>
           <div className="container mx-auto px-4">
             <br />
             <h2
@@ -111,10 +111,26 @@ function App() {
                 darkMode ? "text-white" : "text-black"
               }`}
             >
-              Projects
+              Breathe
             </h2>
 
-            <Projects darkMode={darkMode} />
+            <Breathe darkMode={darkMode} />
+          </div>
+        </section>
+
+        {/* Projects Section */}
+        <section id="Grub" className={sectionClasses()}>
+          <div className="container mx-auto px-4">
+            <br />
+            <h2
+              className={`text-4xl text-center font-semibold mb-4 ${
+                darkMode ? "text-white" : "text-black"
+              }`}
+            >
+              Grub
+            </h2>
+
+            <Grub darkMode={darkMode} />
           </div>
         </section>
 
@@ -136,7 +152,7 @@ function App() {
 
         <footer
           className={`bg-white shadow-md text-center ${
-            darkMode ? "dark:bg-slate-800" : "bg-white"
+            darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
           }`}
         >
           <p>

@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 
-function Projects({ darkMode }) {
+function Grub({ darkMode }) {
   return (
     <div className={`text-gray-700 ${darkMode ? "text-white" : "text-black"}`}>
       <section
@@ -17,13 +17,13 @@ function Projects({ darkMode }) {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-gray-700">
                 {/* <h2 className="text-4xl font-semibold mb-4">Grub</h2> */}
-                <h2
+                {/* <h2
                   className={`text-4xl text-center font-semibold mb-4 ${
                     darkMode ? "text-white" : "text-black"
                   }`}
                 >
                   Grub
-                </h2>
+                </h2> */}
                 <div
                   className={`text-gray-700 ${
                     darkMode ? "text-white" : "text-black"
@@ -102,4 +102,4 @@ function Projects({ darkMode }) {
   );
 }
 
-export default Projects;
+export default Grub;

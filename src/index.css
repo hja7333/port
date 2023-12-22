@@ -16,10 +16,7 @@ code {
   display: inline-flex;
   max-width: 50%;
   vertical-align: top;
-  margin-right: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px;
+  margin: 30px 20px;
   scroll-padding-top: 20px;
 }
 header {
@@ -27,6 +24,7 @@ header {
   top: 0;
   background-color: white;
   z-index: 100;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .animated-link {
   color: #007bff;
