@@ -10,14 +10,16 @@ import { Link } from "react-scroll";
 import MyJourney from "./MyJourney";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
 
   const headerClasses = `shadow-md ${
-    darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
+    darkMode
+      ? "dark:bg-slate-800 text-white border:none"
+      : "bg-white text-black"
   }`;
 
   const sectionClasses = (additionalClasses = "") =>
@@ -66,6 +68,7 @@ function App() {
               <div>
                 <button
                   onClick={toggleDarkMode}
+                  type="button"
                   class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
                 >
                   Dark Mode

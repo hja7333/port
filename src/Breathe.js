@@ -1,11 +1,9 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
 function Breathe({ darkMode }) {
   return (
     <section
-      className={`py-16 w-full p-2 border rounded text-justify ${
+      className={`py-16 w-full p-2  rounded text-justify ${
         darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
       }`}
     >
@@ -35,6 +33,33 @@ function Breathe({ darkMode }) {
             <p className="text-2xl mb-4">
               Technologies used: JavaScript, React, HTML, CSS
             </p>
+            <div className="mt-8">
+              <ul className="mt-4 space-y-2">
+                <li>
+                  <button
+                    onClick={() =>
+                      window.open("https://tobreathe.netlify.app/", "_blank")
+                    }
+                    className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                  >
+                    ToBreathe Web App
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/hja7333/fe-react-data-visualisation",
+                        "_blank"
+                      )
+                    }
+                    className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                  >
+                    Source Code
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
             <img
@@ -44,31 +69,6 @@ function Breathe({ darkMode }) {
             />
           </div>
         </div>
-      </div>
-
-      <div className="mt-8">
-        <ul className="mt-4 space-y-2">
-          <li>
-            <a
-              href="https://tobreathe.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-green-600 dark:shadow-gray-800 hover:underline animated-link"
-            >
-              <FontAwesomeIcon icon={faEarthAfrica} bounce /> ToBreathe Web App
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/hja7333/fe-react-data-visualisation"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-green-600 dark:shadow-gray-800 hover:underline animated-link"
-            >
-              <FontAwesomeIcon icon={faEarthAfrica} bounce /> Source Code
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import React from "react";
 function MyJourney({ darkMode }) {
   return (
     <section
-      className={`py-16 px-4 w-full p-2 border rounded text-justify  ${
+      className={`py-16 px-4 w-full p-2 rounded text-justify  ${
         darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
       }`}
     >

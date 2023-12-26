@@ -30,38 +30,27 @@ function ContactMe({ darkMode }) {
 
   return (
     <div
-      className={` w-full px-4  p-2 border rounded text-justify ${
+      className={` w-full px-4  p-2 rounded text-justify ${
         darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
       }`}
     >
       <div>
-        <h2
-          className={`w-full  px-4 text-2xl mb-4 bg-white shadow-md ${
-            darkMode ? "text-white dark:bg-slate-800" : "bg-white"
-          }`}
-        >
-          Hello there!
-        </h2>
         <p
           className={`w-full px-4 py-8 text-2xl mb-4 bg-white shadow-md ${
             darkMode ? "text-white dark:bg-slate-800" : "bg-white"
           }`}
         >
-          🖐️ I'm always excited to connect with fellow tech enthusiasts and
-          potential collaborators. Whether you're interested in discussing
-          exciting projects, exploring permanent positions, or freelance
-          opportunities, I'm all ears. Let's chat and see where our paths may
-          lead. Feel free to drop me a line, and let's start a conversation.
-          Looking forward to connecting with you!"
+          Hello there! 🖐️ I'm always excited to connect with fellow tech
+          enthusiasts and potential collaborators. Whether you're interested in
+          discussing exciting projects, exploring permanent positions, or
+          freelance opportunities, I'm all ears. Let's chat and see where our
+          paths may lead. Feel free to drop me a line, and let's start a
+          conversation. Looking forward to connecting with you!"
         </p>
 
         <form onSubmit={sendEmail}>
           <div></div>
-          <div
-          // className={`w-full text-2xl mb-4 bg-white shadow-md ${
-          //   darkMode ? "text-white dark:bg-slate-800" : "bg-white"
-          // }`}
-          >
+          <div>
             <label
               htmlFor="name"
               className={`block text-lg font-semibold  bg-white shadow-md ${

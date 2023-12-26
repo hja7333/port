@@ -1,12 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 
 function Grub({ darkMode }) {
   return (
     <div className={`text-gray-700 ${darkMode ? "text-white" : "text-black"}`}>
       <section
-        className={`py-16 w-full p-2 border rounded text-justify  ${
+        className={`py-16 w-full p-2 ${
           darkMode ? "dark:bg-slate-800" : "bg-white"
         }`}
       >
@@ -32,6 +30,49 @@ function Grub({ darkMode }) {
                     users experience and also to explore wider technologies
                     outside of the PERN stack we have become used to.
                   </p>
+                  <div className="mt-8">
+                    <ul className="mt-4 space-y-2">
+                      <li>
+                        <button
+                          onClick={() =>
+                            window.open(
+                              "https://github.com/hja7333/GrubFe",
+                              "_blank"
+                            )
+                          }
+                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                        >
+                          Frontend Source Code
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          onClick={() =>
+                            window.open(
+                              "https://github.com/hja7333/Grub-BE",
+                              "_blank"
+                            )
+                          }
+                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                        >
+                          Backend Source Code
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          onClick={() =>
+                            window.open(
+                              "https://www.youtube.com/watch?v=PLvoOUOAx5A",
+                              "_blank"
+                            )
+                          }
+                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                        >
+                          YouTube Promotional Video
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -48,42 +89,6 @@ function Grub({ darkMode }) {
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />
               </div>
-
-              <ul className="mt-4 space-y-2">
-                <li>
-                  <a
-                    href="https://github.com/hja7333/GrubFe"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600 dark:shadow-gray-800 hover:underline animated-link "
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> Frontend Source
-                    Code
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/hja7333/Grub-BE"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600  dark:shadow-gray-800 hover:underline animated-link"
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> Backend Source
-                    Code
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/watch?v=PLvoOUOAx5A"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600  dark:shadow-gray-800 hover:underline animated-link"
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> YouTube
-                    Promotional Video
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

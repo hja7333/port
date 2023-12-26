@@ -1,12 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 
 function HjaNews({ darkMode }) {
   return (
     <div className={`text-gray-700 ${darkMode ? "text-white" : "text-black"}`}>
       <section
-        className={`py-16 w-full p-2 border rounded text-justify  ${
+        className={`py-16 w-full p-2  rounded text-justify  ${
           darkMode ? "dark:bg-slate-800" : "bg-white"
         }`}
       >
@@ -40,6 +38,46 @@ function HjaNews({ darkMode }) {
                     delivering news hassle-free!
                   </p>
                 </div>
+                <div className="mt-8">
+                  <ul className="mt-4 space-y-2">
+                    <li>
+                      <button
+                        onClick={() =>
+                          window.open("https://hjanews.netlify.app/", "_blank")
+                        }
+                        className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                      >
+                        HJA News Web App
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={() =>
+                          window.open(
+                            "https://github.com/hja7333/nc-news",
+                            "_blank"
+                          )
+                        }
+                        className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                      >
+                        Frontend Code
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={() =>
+                          window.open(
+                            "https://github.com/hja7333/nc-news",
+                            "_blank"
+                          )
+                        }
+                        className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                      >
+                        Backend Code
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </div>
 
               <div className="images ">
@@ -55,40 +93,6 @@ function HjaNews({ darkMode }) {
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />
               </div>
-
-              <ul className="mt-4 space-y-2">
-                <li>
-                  <a
-                    href="https://hjanews.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600  dark:shadow-gray-800 hover:underline animated-link"
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> HJA News Web
-                    App
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/hja7333/nc-news"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600 dark:shadow-gray-800 hover:underline animated-link "
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> Frontend Code
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/hja7333/nc-news"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-600  dark:shadow-gray-800 hover:underline animated-link"
-                  >
-                    <FontAwesomeIcon icon={faBowlFood} bounce /> Backend Code
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
