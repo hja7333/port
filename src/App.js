@@ -16,10 +16,6 @@ function App() {
     setDarkMode(!darkMode);
   };
 
-  const containerClasses = `container mx-auto min-h-screen bg-slate-700 ${
-    darkMode ? "dark" : ""
-  }`;
-
   const headerClasses = `shadow-md ${
     darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
   }`;
@@ -30,7 +26,7 @@ function App() {
     } ${additionalClasses}`;
 
   return (
-    <div className={containerClasses}>
+    <div className>
       <div className={`min-h-screen ${darkMode ? "dark" : ""}bg-slate-700`}>
         <header className={headerClasses}>
           <nav className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
