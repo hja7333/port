@@ -57,18 +57,17 @@ function App() {
                 </Link>
               </li>
             </ul>
-            <li>
-              <div className={darkMode ? "dark" : ""}>
-                <div className="bg-white dark:bg-slate-700">
-                  <button
-                    onClick={toggleDarkMode}
-                    className="bg-grey-300 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
-                  >
-                    Toggle Dark Mode
-                  </button>
-                </div>
+
+            <div className={darkMode ? "dark" : ""}>
+              <div className="bg-white dark:bg-slate-700">
+                <button
+                  onClick={toggleDarkMode}
+                  className="bg-grey-300 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
+                >
+                  Toggle Dark Mode
+                </button>
               </div>
-            </li>
+            </div>
           </nav>
         </header>
 
