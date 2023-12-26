@@ -29,39 +29,49 @@ function App() {
     <div className>
       <div className={`min-h-screen ${darkMode ? "dark" : ""}bg-slate-700`}>
         <header className={headerClasses}>
-          <nav className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
-            <h1 className="text-6xl font-semibold">Alan Hunt</h1>
+          <nav className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center ">
+            <h1 className="text-6xl font-semibold  ">Alan Hunt</h1>
             <ul className="flex space-x-6">
               <li>
-                <Link to="about" smooth={true} duration={500}>
-                  About Me
-                </Link>
-              </li>
-              <li>
-                <li>
-                  <Link to="my-journey" smooth={true} duration={500}>
-                    My Journey{" "}
+                <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2">
+                  <Link to="about" smooth={true} duration={500}>
+                    About Me
                   </Link>
-                </li>
-                <Link to="Breathe" smooth={true} duration={500}>
-                  Projects
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="contact" smooth={true} duration={500}>
-                  Contact Me
-                </Link>
+                <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2">
+                  <Link to="my-journey" smooth={true} duration={500}>
+                    My Journey
+                  </Link>
+                </button>
+              </li>
+              <li>
+                <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2">
+                  <Link to="Breathe" smooth={true} duration={500}>
+                    Projects
+                  </Link>
+                </button>
+              </li>
+              <li>
+                <button className="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2">
+                  <Link to="contact" smooth={true} duration={500}>
+                    Contact Me
+                  </Link>
+                </button>
               </li>
             </ul>
 
             <div className={darkMode ? "dark" : ""}>
-              <div className="bg-white dark:bg-slate-700">
+              <div>
                 <button
                   onClick={toggleDarkMode}
-                  className="bg-grey-300 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded"
+                  class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
                 >
-                  Toggle Dark Mode
+                  Dark Mode
                 </button>
+
+                <button></button>
               </div>
             </div>
           </nav>
@@ -72,7 +82,7 @@ function App() {
           <div className="container mx-auto px-4">
             <br />
             <h2
-              className={`text-4xl text-center font-semibold mb-4 ${
+              className={`text-4xl text-center font-semibold mb-4  ${
                 darkMode ? "text-white" : "text-black"
               }`}
             >
