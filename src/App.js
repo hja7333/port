@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css";
 import "./App.css";
 import AboutMe from "./AboutMe";
@@ -15,10 +15,15 @@ function App() {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+  useEffect(() => {
+    document.documentElement.style.backgroundColor = darkMode
+      ? "#1F2937"
+      : "white";
+  }, [darkMode]);
 
   const headerClasses = `shadow-md ${
     darkMode
-      ? "dark:bg-slate-800 text-white border:none"
+      ? "dark:bg-slate-800 text-white border:none "
       : "bg-white text-black"
   }`;
 
@@ -73,8 +78,6 @@ function App() {
                 >
                   Dark Mode
                 </button>
-
-                <button></button>
               </div>
             </div>
           </nav>
