@@ -17,6 +17,10 @@ function App() {
     setDarkMode(!darkMode);
   };
 
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -107,22 +111,42 @@ function App() {
           } sm:hidden fixed top-16 left-0 right-0 bg-white dark:bg-slate-800 flex flex-col space-y-4 p-4`}
         >
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
               About Me
             </Link>
           </li>
           <li>
-            <Link to="my-journey" smooth={true} duration={500}>
+            <Link
+              to="my-journey"
+              smooth={true}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
               My Journey
             </Link>
           </li>
           <li>
-            <Link to="Breathe" smooth={true} duration={500}>
+            <Link
+              to="Breathe"
+              smooth={true}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={closeMobileMenu}
+            >
               Contact Me
             </Link>
           </li>
