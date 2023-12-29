@@ -36,7 +36,7 @@ function ContactMe({ darkMode }) {
     >
       <div>
         <p
-          className={`w-full px-4 py-8 text-2xl mb-4 bg-white shadow-md ${
+          className={`w-full px-4 py-8 text-2xl mb-4 bg-white  ${
             darkMode ? "text-white dark:bg-slate-800" : "bg-white"
           }`}
         >
@@ -53,7 +53,7 @@ function ContactMe({ darkMode }) {
           <div>
             <label
               htmlFor="name"
-              className={`block text-lg font-semibold  bg-white shadow-md ${
+              className={`block text-lg font-semibold  bg-white ${
                 darkMode ? "text-white dark:bg-slate-800" : "bg-white"
               }`}
             >
@@ -96,7 +96,7 @@ function ContactMe({ darkMode }) {
               name="message"
               rows="4"
               required
-              className={`w-full p-2 border rounded bg-white shadow-md ${
+              className={`w-full p-2 border rounded bg-white${
                 darkMode ? "text-white dark:bg-slate-800" : "bg-white"
               }`}
             ></textarea>
