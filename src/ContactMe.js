@@ -30,7 +30,7 @@ function ContactMe({ darkMode }) {
 
   return (
     <div
-      className={` w-full px-4  p-2 rounded text-justify ${
+      className={` w-full px-4  p-2 rounded ${
         darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
       }`}
     >

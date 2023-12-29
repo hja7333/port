@@ -4,11 +4,11 @@ function HjaNews({ darkMode }) {
   return (
     <div className={`text-gray-700 ${darkMode ? "text-white" : "text-black"}`}>
       <section
-        className={`py-16 w-full p-2  rounded text-justify  ${
+        className={`py-16 w-full p-2  rounded   ${
           darkMode ? "dark:bg-slate-800" : "bg-white"
         }`}
       >
-        <div className="container mx-auto px-4 text-justify">
+        <div className="container mx-auto px-4 ">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-gray-700">
