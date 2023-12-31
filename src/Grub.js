@@ -78,13 +78,13 @@ function Grub({ darkMode }) {
 
               <div className="images ">
                 <img
-                  src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.43.55.png?raw=true"
+                  src="https://github.com/hja7333/port/blob/main/public/GrubCreateAccount_output.avif?raw=true"
                   alt="Create account screen of the GRUB APP"
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />
 
                 <img
-                  src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-11-02%20at%2017.44.35.png?raw=true"
+                  src="https://github.com/hja7333/port/blob/main/public/GrubMapView_output.avif?raw=true"
                   alt="Map View screenshot of the Grub App"
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />

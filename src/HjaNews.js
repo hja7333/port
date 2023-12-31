@@ -82,13 +82,13 @@ function HjaNews({ darkMode }) {
 
               <div className="images ">
                 <img
-                  src="https://github.com/hja7333/port/blob/main/public/image_123650291%20(3).JPG?raw=true"
+                  src="https://github.com/hja7333/port/blob/main/public/newsHuntMain_output.avif?raw=true"
                   alt="Landing page of HJA NEWS app, it has home and login buttons, filters for cooking, football, coding"
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />
 
                 <img
-                  src=" https://github.com/hja7333/port/blob/main/public/image_123650291%20(2).JPG?raw=true"
+                  src=" https://github.com/hja7333/port/blob/main/public/newsHuntArticle_output.avif?raw=true"
                   alt="Single article page on the HJA NEWS app, with header as before, votes, author, and comments underneath "
                   className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
                 />
