@@ -63,8 +63,10 @@ function Breathe({ darkMode }) {
           </div>
           <div>
             <img
-              src="https://github.com/hja7333/port/blob/main/public/Screenshot%202023-12-22%20at%2010.15.55.png?raw=true"
+              src="https://github.com/hja7333/port/blob/main/public/BreatheApp_output.avif?raw=true"
               alt="Breathe app page with input for postcode"
+              width="1029"
+              height="2187"
               className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
             />
           </div>
