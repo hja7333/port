@@ -57,7 +57,7 @@ function MyJourney({ darkMode }) {
           <div>
             <img
               className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
-              src="https://th.bing.com/th/id/OIG.SwodUL7BLVj8zn29AphQ?pid=ImgGn"
+              src="https://github.com/hja7333/port/blob/main/public/OIG.jpeg"
               alt=""
             />
           </div>

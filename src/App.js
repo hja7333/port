@@ -31,7 +31,7 @@ function App() {
       : "white";
   }, [darkMode]);
 
-  const headerClasses = `shadow-md ${
+  const headerClasses = ` ${
     darkMode
       ? "dark:bg-slate-800 text-white border:none "
       : "bg-white text-black"
@@ -248,7 +248,7 @@ function App() {
       </section>
 
       <footer
-        className={`bg-white shadow-md text-center ${
+        className={`bg-white text-center ${
           darkMode ? "dark:bg-slate-800 text-white" : "bg-white text-black"
         }`}
       >

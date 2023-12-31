@@ -31,7 +31,7 @@ function AboutMe({ darkMode }) {
           </div>
           <div>
             <img
-              src="https://th.bing.com/th/id/OIG.nNWBeZORNw3eqfdgX5ER?pid=ImgGn"
+              src="https://github.com/hja7333/port/blob/main/public/OIG(1).jpeg"
               alt=""
               className="w-full h-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none"
             />
