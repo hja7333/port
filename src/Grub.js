@@ -8,7 +8,7 @@ function Grub({ darkMode }) {
           darkMode ? "dark:bg-slate-800" : "bg-white"
         }`}
       >
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-4 text-2xl mb-4">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-gray-700">
@@ -17,18 +17,29 @@ function Grub({ darkMode }) {
                     darkMode ? "text-white" : "text-black"
                   }`}
                 >
-                  <p className="text-2xl mb-4">
-                    We used: BE: Mongoose, MongoDB (hosted with Mongo Atlas),
+                  <p>
+                    Grub is a full stack MERN application that allows users to
+                    collectively tackle the rise in food costs, energy bills,
+                    and the challenges faced by homeless or low-income
+                    individuals. Together, let's create a world where no one
+                    goes hungry, and food becomes a catalyst for positive
+                    change.{" "}
+                  </p>
+                  <p>
+                    Join Grub today and be part of a global movement
+                    transforming lives, one meal at a time. Back End
+                    technologies: Mongoose, MongoDB (hosted with Mongo Atlas),
                     Express, Jest, Supertest, Passport.js, Node.JS
                   </p>
-                  <p className="text-2xl mb-4">
-                    FE: React Native, React Native maps, React Native google
-                    places autocomplete, Expo, Android Studio, Axios.
+                  <p>
+                    Frontend technologies: React Native, React Native maps,
+                    React Native google places autocomplete, Expo, Android
+                    Studio, Axios.
                   </p>
-                  <p className="text-2xl mb-4">
+                  <p>
                     Our tech stack choices were made to try to optimise the
                     users experience and also to explore wider technologies
-                    outside of the PERN stack we have become used to.
+                    outside of the PERN stack we had used on the bootcamp.
                   </p>
                   <div className="mt-8">
                     <ul className="mt-4 space-y-2">
