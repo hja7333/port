@@ -13,20 +13,21 @@ function AboutMe({ darkMode }) {
             className={`py-16 ${darkMode ? "dark:bg-slate-800" : "bg-white"}`}
           >
             <p className="text-2xl mb-4">
-              Hey folks! 🌟 I'm a highly motivated professional with experience
-              in education, software engineering, nationwide field sales, and
-              international credit control. Picture this: I've danced my way
-              through teaching, rocked it in field sales, and strutted my stuff
-              in international credit control, all leading up to my epic
-              graduation from the Northcoders Software Engineering Bootcamp.
+              Greetings! 🌟 I am a Full Stack Developer, my journey has seen me
+              thrive in legal field sales, excel in teaching, culminating in my
+              successful completion of the Northcoders Software Engineering
+              Bootcamp.
             </p>
             <p className="text-2xl mb-4">
-              I'm all about tackling new challenges and keeping that learning
-              energy alive, especially in the ever-changing tech scene. My
-              reputation? It's built on killer problem-solving skills and a
-              commitment to dropping innovative solutions. Now, I'm on the hunt
-              for a challenging role where I can team up with some tech wizards
-              to make a serious impact on our turf! 🚀✨
+              Driven by an unquenchable thirst for knowledge, I am passionate
+              about embracing new challenges, particularly in the ever-evolving
+              tech landscape. My professional identity is forged upon a
+              foundation of robust problem-solving skills and an unwavering
+              commitment to delivering innovative solutions. I am actively
+              seeking a challenging role where I can collaborate with
+              accomplished tech professionals to make a significant impact in
+              our domain. I bring to the table a determination to contribute
+              meaningfully to cutting-edge projects. Let's team up !
             </p>
           </div>
           <div>
