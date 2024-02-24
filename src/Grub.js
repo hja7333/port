@@ -51,7 +51,7 @@ function Grub({ darkMode }) {
                               "_blank"
                             )
                           }
-                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                          className=" dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
                         >
                           Frontend Source Code
                         </button>
@@ -64,7 +64,7 @@ function Grub({ darkMode }) {
                               "_blank"
                             )
                           }
-                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                          className=" dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
                         >
                           Backend Source Code
                         </button>
@@ -77,7 +77,7 @@ function Grub({ darkMode }) {
                               "_blank"
                             )
                           }
-                          className="text-green-600 dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
+                          className=" dark:shadow-gray-800 hover:underline animated-link text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-xs px-3 py-1.5 text-center me-2 mb-2"
                         >
                           YouTube Promotional Video
                         </button>
